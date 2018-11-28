@@ -95,7 +95,7 @@ the total cost of the call.
 *Per-minute phone call rates*
 
 Area Code | Per-Minute Rate ($)
--------------------------------
+--------- | -------------------
       262 | 0.07
       414 | 0.10
       608 | 0.05
@@ -113,13 +113,13 @@ a student’s number of words typed. The output is the letter grade.
 **Figure 6-26**
 *Typing grades*
 
-Words typed | Grade
--------------------
-0–15	    | F
-16–30	    | D
-31–50	    | C
-51–75	    | B
-76 and over | A
+| Words typed | Grade |
+| ----------- | ----- |
+| 0–15	      | F	  |
+| 16–30	      | D	  |
+| 31–50	      | C	  |
+| 51–75	      | B	  |
+| 76 and over | A	  |
 	
  8
 ---
