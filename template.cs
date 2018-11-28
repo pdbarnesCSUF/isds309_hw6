@@ -1,6 +1,6 @@
 /*
     Patrick Barnes
-    https://github.com/pdbarnesCSUF/isds309_hw5
+    https://github.com/pdbarnesCSUF/isds309_hw6
 */
 /*
 1
@@ -19,7 +19,7 @@ namespace TheProject
     {
         static void Main(string[] args)
         {
-            WriteLine("hw5#1 - Patrick Barnes");
+            WriteLine("hw6#1 - Patrick Barnes");
             WriteLine("TheProject");
 
             
