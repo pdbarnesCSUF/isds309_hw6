@@ -5,8 +5,8 @@ VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{97F2CB54-B6CA-487C-91EA-AD4E74C64F4A}"
 	ProjectSection(SolutionItems) = preProject
+		Ch6_ReviewQuestions_A.txt = Ch6_ReviewQuestions_A.txt
 		README.md = README.md
-		ReviewQuestions.txt = ReviewQuestions.txt
 		template.cs = template.cs
 	EndProjectSection
 EndProject

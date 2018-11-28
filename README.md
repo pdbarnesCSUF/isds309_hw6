@@ -1,50 +1,135 @@
+Assignment 6 - Chapter 6 - A
 
--------------------------------------------------------------------
-10
+Assignment 6 - Chapter 6 - A
+
+Due: Tuesday, Nov  20, 4 pm (before class)
+
+
+*** Please complete the following questions 
+
+Chapter 6, end of chapter review questions (p 256 - ).: 
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+
+Attention
+
+Write all your answers in one (1) word or text document. Save it as 
+"Ch6_ReviewQuestions_A.docx" or "Ch6_ReviewQuestions_A.txt"  before uploading it to 
+Titanium.
+
+*** Please complete the following  exercises.
+
+Chapter 6, end of chapter exercises (p 259 - ): 
+1, 2, 3, 4, 5, 6, 7, 8, 9
+
+Attention
+
+Only upload the file "program.cs" for each exercise to Titanium. That is the file that 
+contains the code you have written. before uploading it to Titanium, rename the file 
+program.cs to FILENAME.txt and then upload the file. (FILENAME is the name that the 
+each exercise has provided for each program)
+
+For example after completing exercise 6 (InchesToCentimeterActive), 
+
+        Copy the file "program.cs" to a new location (that way you don't lose the 
+		original program.cs file). 
+        Rename the newly copied file "program.cs" to "InchesToCentimeterActive.txt" 
+        Upload the file "InchesToCentimeterActive.txt" to Titanium. 
+        Repeat these steps for the other exercises.
+
+Good luck,,
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+ 1
 ---
-Write an application named **Perfect** that displays every perfect number from 1 through 
-10,000. A number is perfect if it equals the sum of all the smaller positive integers 
-that divide evenly into it. For example, 6 is perfect because 1, 2, and 3 divide 
-evenly into it and their sum is 6.
+Write a program named **ArrayDemo** that stores an array of 10 integers. Until the user 
+enters a sentinel value, allow the user four options:
 
-11
+1. to view the list in order from the first to last position in the stored array,
+2. to view the list in order from the last to first position,
+3. to choose a specific position to view, or
+4. to quit the application.
+
+ 2
 ---
-In a “You Do It” section of this chapter, you created a tipping table for patrons to use 
-when analyzing their restaurant bills. Now, create a modified program named **TippingTable3**
-in which each of the following values is obtained from user input:
+Write a program named **TestScoreList** that accepts eight int values representing student 
+test scores. Display each of the values along with a message that indicates how far it 
+is from the average.
 
-* The lowest tipping percentage
-
-* The highest tipping percentage
-
-* The lowest possible restaurant bill
-
-* The highest restaurant bill
-
-12
+ 3
 ---
-Write a program named **WebAddress** that asks a user for a business name. Suggest a good Web 
-address by adding *www.* to the front of the name, removing all spaces from the name, and adding 
-*.com* to the end of the name. For example, a good Web address for Acme Plumbing and Supply is 
-*www.AcmePlumbingandSupply.com*.
+Write a program named **TemperaturesComparison** that allows a user to input five daily 
+Fahrenheit temperatures that must range from −30 to 130; if a temperature is out of 
+range, require the user to reenter it. If no temperature is lower than any previous 
+one, display a message *Getting warmer*. If every temperature is lower than the previous 
+one, display a message *Getting cooler*. If the temperatures are not entered in either 
+ascending or descending order, display a message *It’s a mixed bag*. Finally, display 
+the temperatures in the order they were entered, and then display the average of the 
+temperatures.
 
-13
+ 4
 ---
-Write a program named **CountVowels** that accepts a phrase from the user and counts the number of 
-vowels in the phrase. For this exercise, count both uppercase and lowercase vowels, but do not 
-consider *y* to be a vowel.
+Write a program named **CheckZips** that is used by a package delivery service to check 
+delivery areas. The program contains an array that holds the 10 zip codes of areas 
+to which the company makes deliveries. Prompt a user to enter a zip code, and display 
+a message indicating whether the zip code is in the company’s delivery area.
 
-14
+ 5
 ---
-In Chapter 4, you created a program that generates a random number, allows a user to guess it, and 
-displays a message indicating whether the guess is too low, too high, or correct. Now, create a 
-modified program called **GuessingGame2** in which the user can continue to enter values until the 
-correct guess is made. After the user guesses correctly, display the number of guesses made.
+Write a program called **DeliveryCharges** for the package delivery service in Exercise 4. 
+The program should again use an array that holds the 10 zip codes of areas to which 
+the company makes deliveries. Create a parallel array containing 10 delivery charges 
+that differ for each zip code. Prompt a user to enter a zip code, and then display 
+either a message indicating the price of delivery to that zip code or a message 
+indicating that the company does not deliver to the requested zip code.
 
-Recall that you can generate a random number whose value is at least min and less than max using 
-the following statements:
-```cs
-Random ranNumber = new Random();
-int randomNumber;
-randomNumber = ranNumber.Next(min, max);
-```
+ 6
+---
+The **Chat-A-While** phone company provides service to six area codes and charges the 
+per-minute rates for phone calls shown in Figure 6-25. Write a program named 
+ChatAWhile that stores the area codes and rates in parallel arrays and allows a user 
+to enter an area code and the length of time for a call in minutes, and then display 
+the total cost of the call.
+
+**Figure 6-25**
+*Per-minute phone call rates*
+
+Area Code | Per-Minute Rate ($)
+-------------------------------
+      262 | 0.07
+      414 | 0.10
+      608 | 0.05
+      715 | 0.16
+      815 | 0.24
+      920 | 0.14
+
+
+ 7
+---
+The Nimble Fingers Typing School assigns grades based on words typed per minute, as 
+shown in Figure 6-26. Write a program named **TypingGrades** that allows a user to enter 
+a student’s number of words typed. The output is the letter grade.
+
+**Figure 6-26**
+*Typing grades*
+
+Words typed | Grade
+-------------------
+0–15	    | F
+16–30	    | D
+31–50	    | C
+51–75	    | B
+76 and over | A
+	
+ 8
+---
+Write a program for The Carefree Resort named **ResortPrices** that prompts the user to 
+enter the number of days for a resort stay. Then display the price per night and the 
+total price. Nightly rates are $200 for one or two nights; $180 for three or four 
+nights; $160 for five, six, or seven nights; and $145 for eight nights or more.
+
+ 9
+---
+In Chapter 5, you wrote a **HomeSales** application for three salespeople: Danielle, 
+Edward, and Francis. Now, modify the program to use arrays to store the salesperson 
+names, allowed initials, and accumulated sales values.
