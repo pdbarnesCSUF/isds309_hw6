@@ -1,0 +1,100 @@
+
+ 1
+---
+In an array, every element has the same .
+
+a. subscript
+b. memory location
+c. data type
+d. all of the above
+
+ 2
+---
+The operator used to create objects is .
+
+a. =
+b. +=
+c. new
+d. create
+
+ 3
+---
+Which of the following correctly declares an array of six integers?
+
+a. int array[6];
+b. int[] array = 6;
+c. int[6] array;
+d. int[] array = new int[6];
+
+ 4
+---
+The value placed within square brackets after an array name is .
+
+a. always a constant
+b. always a double
+c. called a subscript
+d. all of these
+
+ 5
+---
+If you define an array to contain 10 elements, then the highest array subscript you can use is .
+
+a. 8
+b. 9
+c. 10
+d. 11
+
+ 6
+---
+Initializing an array is in C#.
+
+a. optional
+b. required
+c. difficult
+d. prohibited
+
+ 7
+---
+When you declare an array of six double elements but provide no initialization values, the value of the first element is .
+
+ a. 0.0
+ b. 1.0
+ c. 5.0
+ d. unknown
+
+ 8
+---
+Which of the following correctly declares an array of four integers?
+
+a. int[] ages = new int[4] {20, 30, 40, 50};
+b. int[] ages = new int[] {20, 30, 40, 50};
+c. int[] ages = {20, 30, 40, 50};
+d. all of these
+
+ 9
+---
+When an ages array is correctly initialized using the values {20, 30, 40, 50}, then the value of ages[1] is .
+
+a. 0
+b. 20
+c. 30
+d. undefined
+
+ 10
+----
+When an ages array is correctly initialized using the values {20, 30, 40, 50}, then the value of ages[4] is .
+
+a. 0
+b. 4
+c. 50
+d. undefined
+
+ 11
+----
+When you declare an array as int[] temperature = {0, 32, 50, 90, 212, 451};, the value of temperature.Length is .
+
+a. 5
+b. 6
+c. 7
+d. unknown
+
